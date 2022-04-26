@@ -1,0 +1,305 @@
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  background-color: #000;
+  display: grid;
+  justify-items: center;
+}
+h1, h2, h3, p{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display: block;
+  max-width: 100%;
+}
+.head{
+  width: 100%;
+  background-color: rgba(62, 62, 62, 0.600);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position:fixed;
+}
+.logo{
+  padding-left: 5em;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.menu1{
+  padding-right: 5em;
+  list-style: none;
+  display: flex;
+  margin-right: 2.5rem;
+  margin-top: 3rem;
+}
+.menu-link{
+  color: #9e9e9e;
+}
+.login{
+  color: #cfcfcf;
+}
+.item{
+  margin-left: 2rem;
+  margin-right: 2px;
+}
+.menu2{
+  margin-top: 1em;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+.item2{
+display: grid;
+grid-template-columns: auto 1fr;
+padding: 1em 2em;
+}
+.divmenu{
+  background-color: #12220c ;
+  margin: 2rem 20rem;
+  border: solid 1px #bdfbae;
+  border-radius: 5px;
+  margin-top: 10em;
+}
+.menu2link{
+  color: #9e9e9e;
+  padding: 5px;
+}
+.expitem{
+  margin-top: 14px;
+}
+.item3{
+display: grid;
+grid-template-columns: 1fr auto;
+padding: 1em 2em;
+}
+.basket{
+  color: #9e9e9e;
+ padding: 8px;
+}
+main{
+  width: 60rem;
+  justify-content: center;
+}
+h1{
+  color: #9c8f8f;
+}
+p{
+  color: rgb(128, 122, 122);
+  font-size: 20px;
+  line-height: 1.3;
+}
+.conteudogamer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+h1{
+  font-size: 3.1rem;
+  color: #b9b320;
+}
+.skin{
+  display: grid;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.skin p{
+  margin-top: 2rem;
+padding-right: 6rem;
+}
+.variedade{
+  color: #40404083;
+}
+.botao{
+  color: #12220c;
+  text-transform: uppercase;
+  margin-top: 4rem;
+  padding: 15px 30px;
+  background-image: linear-gradient(#64ec42,#33711e);
+  justify-self: left;
+  border-radius: 5px;
+  transition: .3s;
+}
+.botao:hover{
+  background-image: linear-gradient(#38c016,#103006);
+}
+.conteudopop{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 8rem;
+  
+}
+.dart{
+ background-color: #9c8f8f15;
+}
+.culturapop{
+  margin-top: 4rem;
+  margin-left: 3rem;
+  color: #49454586;
+}
+.waderspeak{
+ margin-left: 5rem;
+}
+.start{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.finish{
+  display: block;
+  margin-right: 6rem;
+  margin-left: 19rem;
+}
+.name{
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+.botao2{
+  display: block;
+  color: #12220c;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 4rem;
+  margin-left: 15rem;
+  margin-right: 6rem;
+  background-image: linear-gradient(#64ec42,#33711e);
+  transition: .3s;
+}
+.botao2:hover{
+  background-image: linear-gradient(#38c016,#103006);
+}
+h2{
+  color: rgba(255, 255, 255, 0.74);
+  margin-top: em;
+}
+.outros{
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: calc(-40vw + 50%);
+  margin-right: calc(-40vw + 50%);
+}
+h2{
+  font-size: 2.5rem;
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.botao-outros{
+  color: #12220c;
+  text-transform: uppercase;
+  margin-top: 4rem;
+  padding: 15px 30px;
+  background-image: linear-gradient(#64ec42,#33711e);
+  justify-self: left;
+  border-radius: 5px;
+  justify-self: center;
+  transition: .3s;
+}
+.botao-outros:hover{
+  background-image: linear-gradient(#38c016,#103006);
+}
+footer{
+  display:grid;
+  width: 100%;
+  background-color:rgba(62, 62, 62, 0.600);
+  margin-top: 8em;
+  justify-items: center;
+}
+.logo2{
+  display: block;
+  margin-top: 2rem;
+}
+.footerlist{
+  margin-top: 5em;
+  margin-bottom: 5em;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5em;
+  justify-items: center;
+}
+.list-item{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+a{
+  color: #9e9e9e;
+}
+.footerlist p{
+  font-size: 1em;
+  color: #9e9e9e;
+  margin-top: 5px;
+  margin-bottom: 5em;
+}
+footer p{
+  font-size: 1em;
+  color: #9c8f8f6c;
+}
+.condicoes{
+  margin: 2em;
+  color: #9e9e9e6b;
+  position: relative;
+}
+.condicoes::before{
+  content: "";
+  display: block;
+  height: 1px;
+  width: 1000px;
+  background-color: #cccccc10;
+  position: absolute;
+  top: -90px;
+  left: -430px;
+}
+@media(max-width:1200px){
+  .menu2{
+    grid-template-columns: 1fr;
+  }
+}
+@media(max-width:900px){
+  .body{
+  justify-items: flex-start;
+  }
+  .conteudogamer{
+    grid-template-columns: 1fr;
+  }
+}
+@media(max-width:900px){
+  .conteudopop{
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+  }
+}
+@media(max-width:900px){
+  .skin{
+    grid-row: 2;
+    text-align: center;
+    padding: 4rem;
+  }
+  .botao{
+    justify-self: center;
+  }
+  .conteudogamer{
+    padding: 5rem;
+    justify-content: center;
+  }
+  .head{
+    position:fixed;
+    z-index: 1;
+    background-color:rgb(34, 33, 33) ;
+  }
+  .interrogacao{
+    padding: 3rem;
+    margin-left: 0px;
+  }
+  .conteudopop{
+    text-align: center;
+    padding: 5rem;
+  }
+  .dart{
+    padding: 6rem;
+  }
+}
